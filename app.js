@@ -586,7 +586,7 @@
       const cur = document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
       apply(cur === 'light' ? 'dark' : 'light');
     });
-    apply(localStorage.getItem('nkcp-theme') || 'dark');
+    apply(localStorage.getItem('nkcp-theme') || 'light');
   }
 
   /* ---------- nav: scroll state, spy, mobile ---------- */
@@ -667,7 +667,7 @@
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     let w, h, dpr, parts = [], raf, t = 0, mouse = {x:-9999, y:-9999};
 
-    const accent = () => (getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#2ce8d8');
+    const accent = () => (getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#7b1e34');
     const motion = () => { const m = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--motion')); return isNaN(m) ? 1 : m; };
     function hex2rgb(hex){ hex = hex.replace('#',''); if(hex.length===3) hex = hex.split('').map(c=>c+c).join(''); const n = parseInt(hex,16); return [(n>>16)&255,(n>>8)&255,n&255]; }
     let COL = accent(), RGB = hex2rgb(COL);
@@ -727,14 +727,14 @@
         const fade = Math.min(1, p.age / 18, (p.life - p.age) / 28);
         const pts = p.tr;
         for(let k = 2; k < pts.length; k += 2){
-          const al = (k / pts.length) * 0.5 * fade;
+          const al = (k / pts.length) * 0.32 * fade;
           ctx.strokeStyle = `rgba(${R},${G},${B},${al})`;
           ctx.lineWidth = (0.6 + (k / pts.length) * 0.9) * dpr;
           ctx.beginPath(); ctx.moveTo(pts[k-2], pts[k-1]); ctx.lineTo(pts[k], pts[k+1]); ctx.stroke();
         }
         // leading dot
         ctx.beginPath(); ctx.arc(p.x, p.y, 1.1 * dpr, 0, 6.283);
-        ctx.fillStyle = `rgba(${R},${G},${B},${0.85 * fade})`; ctx.fill();
+        ctx.fillStyle = `rgba(${R},${G},${B},${0.55 * fade})`; ctx.fill();
       }
       raf = requestAnimationFrame(draw);
     }

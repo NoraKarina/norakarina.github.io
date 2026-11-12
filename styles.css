@@ -740,3 +740,58 @@ a.out-badge:hover   { opacity:.8; transform:translateY(-1px); }
 
 /* contador de veces impartida */
 .tc-chip .mult{ color:var(--accent); font-weight:700; margin-left:3px; }
+
+/* ===========================================================================
+   PALETA KARINA · vino y crema (sobrescribe la paleta base)
+   Claro (predeterminado): crema marfil + vino. Oscuro: vino profundo + rosa vino.
+   =========================================================================== */
+:root{
+  --bg:#170c10; --bg-1:#1e1015; --bg-2:#26151b; --bg-3:#311b23;
+  --line:rgba(232,190,170,.12); --line-2:rgba(232,190,170,.22);
+  --text:#f6ece4; --muted:#c9b2a8; --faint:#9a807650; --faint-s:#a88f85;
+  --accent:#e0899a; --accent-ink:#2a0b14;
+  --motion:.5;
+}
+body::before{
+  background:
+    radial-gradient(900px 600px at 78% -8%, color-mix(in oklab, var(--accent) 13%, transparent), transparent 60%),
+    radial-gradient(800px 700px at 0% 12%, color-mix(in oklab, #c9a46a 10%, transparent), transparent 55%),
+    linear-gradient(180deg, #1b0e13, var(--bg) 40%);
+}
+.about-bio p{ color:#eadcd3; }
+.chip, .collab, .fund{ color:#e3d3ca; }
+.tl-detail, .card .c-desc{ color:#d6c3b9; }
+.pub-venue{ color:#dfcdc3; }
+.stack span{ color:#dccbc2; }
+.out-badge.article{ color:#e0899a; border-color:rgba(224,137,154,.3); background:rgba(224,137,154,.08); }
+.out-badge.book{ color:#d9b27a; border-color:rgba(217,178,122,.3); background:rgba(217,178,122,.08); }
+.out-badge.conference{ color:#c7a3d6; border-color:rgba(199,163,214,.3); background:rgba(199,163,214,.08); }
+
+:root[data-theme="light"]{
+  --bg:#faf5ec; --bg-1:#fffdf8; --bg-2:#f3ebdd; --bg-3:#ebe0cf;
+  --line:rgba(90,30,40,.13); --line-2:rgba(90,30,40,.24);
+  --text:#2a1a1d; --muted:#6b5458; --faint:#a08a8a50; --faint-s:#7a6266;
+  --accent:#7b1e34; --accent-ink:#ffffff;
+}
+:root[data-theme="light"] body::before{
+  background:
+    radial-gradient(900px 600px at 78% -8%, color-mix(in oklab, var(--accent) 9%, transparent), transparent 60%),
+    radial-gradient(800px 700px at 0% 12%, color-mix(in oklab, #b8925a 12%, transparent), transparent 55%),
+    linear-gradient(180deg, #f6efe3, var(--bg) 40%);
+}
+:root[data-theme="light"] ::selection{ color:#2a0b14; }
+:root[data-theme="light"] .about-bio p,
+:root[data-theme="light"] .tl-detail,
+:root[data-theme="light"] .card .c-desc,
+:root[data-theme="light"] .collab,
+:root[data-theme="light"] .fund,
+:root[data-theme="light"] .stack span{ color:#4a3a3d; }
+:root[data-theme="light"] .pub-venue{ color:#5a4649; }
+:root[data-theme="light"] .chip{ color:#3a2a2d; background:#f1e7d8; border-color:rgba(90,30,40,.16); }
+:root[data-theme="light"] .portrait{ box-shadow:0 22px 54px -26px rgba(80,20,35,.45); }
+:root[data-theme="light"] .out-badge.article{ color:#7b1e34; border-color:rgba(123,30,52,.3); background:rgba(123,30,52,.07); }
+:root[data-theme="light"] .out-badge.book{ color:#8a6420; border-color:rgba(138,100,32,.3); background:rgba(138,100,32,.07); }
+:root[data-theme="light"] .out-badge.conference{ color:#6b3f7a; border-color:rgba(107,63,122,.3); background:rgba(107,63,122,.07); }
+@media print{
+  .chips .chip{ background:#f7ecee !important; border-color:rgba(123,30,52,.2) !important; }
+}
