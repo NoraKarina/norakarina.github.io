@@ -32,7 +32,7 @@ window.DATA = {
       "es": "Investigo cómo se construyen las políticas de internacionalización de la educación superior, en lo nacional, lo regional y lo institucional, comparando México y Canadá. Trabajo en español, inglés y francés.",
       "en": "I study how higher education internationalization policies are built at national, regional and institutional levels, comparing Mexico and Canada. I work in Spanish, English and French."
     },
-    "email": "nora.preparate@gmail.com",
+    "email": "nk.chavez.p@outlook.com",
     "cv": {
       "es": "assets/CV_Nora_Karina_Chavez_Perez_es.pdf",
       "en": "assets/CV_Nora_Karina_Chavez_Perez_es.pdf"
