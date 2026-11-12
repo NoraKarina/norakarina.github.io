@@ -495,7 +495,7 @@
     const links = NAV_IDS.map(id=>`<a href="#${id}" data-id="${id}">${tt(D.ui.nav[id])}</a>`).join('');
     return `<nav class="nav" id="nav">
       <div class="wrap">
-        <a class="brand" href="#top"><span class="mark"><span>NC</span></span><span>Chávez&nbsp;Pérez</span></a>
+        <a class="brand" href="#top"><span class="mark"><span>NK</span></span><span>Chávez&nbsp;Pérez</span></a>
         <div class="nav-links" id="navLinks">${links}</div>
         <div class="nav-tools">
           <div class="lang" id="lang">
