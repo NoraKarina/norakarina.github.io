@@ -43,7 +43,7 @@ window.DATA = {
     },
     "links": {
       "orcid": "https://orcid.org/0000-0001-9210-6846",
-      "scholar": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Nora+Karina+Chavez+Perez",
+      "scholar": "https://scholar.google.com/citations?hl=es&user=x4ynIOsAAAAJ",
       "researchgate": "https://www.researchgate.net/profile/Nora-Karina-Chavez-Perez",
       "linkedin": "https://www.linkedin.com/in/nora-karina-ch%C3%A1vez-p%C3%A9rez-630939154/"
     }
