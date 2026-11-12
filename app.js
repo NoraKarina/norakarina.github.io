@@ -579,14 +579,14 @@
     const btn = $('#themeBtn'); if(!btn) return;
     const apply = t => {
       document.documentElement.setAttribute('data-theme', t);
-      localStorage.setItem('nkcp-theme', t);
+      localStorage.setItem('nkcp-tema2', t);
       if(window.__refreshParticles) window.__refreshParticles();
     };
     btn.addEventListener('click', ()=>{
       const cur = document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
       apply(cur === 'light' ? 'dark' : 'light');
     });
-    apply(localStorage.getItem('nkcp-theme') || 'light');
+    apply(localStorage.getItem('nkcp-tema2') || 'light');
   }
 
   /* ---------- nav: scroll state, spy, mobile ---------- */
