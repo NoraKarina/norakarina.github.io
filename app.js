@@ -662,7 +662,7 @@
      swirl perturbed by planetary-wave sinusoids — i.e. streamlines of the
      winter stratospheric circulation. Reads --accent and --motion live. */
   function initParticles(){
-    const canvas = $('#particles'); if(!canvas) return;
+    const canvas = $('#particles'); if(!canvas) return; canvas.style.display='none'; return; // Karina: fondo sin animación
     const ctx = canvas.getContext('2d');
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     let w, h, dpr, parts = [], raf, t = 0, mouse = {x:-9999, y:-9999};

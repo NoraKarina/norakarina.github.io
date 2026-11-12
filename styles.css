@@ -795,3 +795,7 @@ body::before{
 @media print{
   .chips .chip{ background:#f3eef8 !important; border-color:rgba(106,44,138,.2) !important; }
 }
+
+/* Karina: fondo liso, sin animación ni cuadrícula */
+#particles{ display:none !important; }
+body::after{ display:none; }

@@ -25,8 +25,8 @@ window.DATA = {
       "en": "Guadalajara, Jalisco · Mexico"
     },
     "sni": {
-      "es": "Disponible en Guadalajara desde enero de 2027",
-      "en": "Available in Guadalajara from January 2027"
+      "es": "Disponible en Guadalajara desde diciembre de 2026",
+      "en": "Available in Guadalajara from December 2026"
     },
     "tagline": {
       "es": "Investigo cómo se construyen las políticas de internacionalización de la educación superior, en lo nacional, lo regional y lo institucional, comparando México y Canadá. Trabajo en español, inglés y francés.",
@@ -38,8 +38,8 @@ window.DATA = {
       "en": "assets/CV_Nora_Karina_Chavez_Perez_es.pdf"
     },
     "cv_short": {
-      "es": "assets/CV_Nora_Karina_Chavez_Perez_es.pdf",
-      "en": "assets/CV_Nora_Karina_Chavez_Perez_es.pdf"
+      "es": "assets/CV_resumido_Nora_Karina_Chavez_Perez_es.pdf",
+      "en": "assets/CV_resumido_Nora_Karina_Chavez_Perez_es.pdf"
     },
     "links": {
       "orcid": "https://orcid.org/0000-0001-9210-6846",
@@ -335,12 +335,12 @@ window.DATA = {
         "en": "Certifications"
       },
       "cv_full": {
-        "es": "CV (español)",
-        "en": "CV (Spanish)"
+        "es": "CV extenso",
+        "en": "Full CV (Spanish)"
       },
       "cv_short": {
-        "es": "CV (español)",
-        "en": "CV (Spanish)"
+        "es": "CV resumido (1 página)",
+        "en": "One-page CV (Spanish)"
       },
       "thesis_h": {
         "es": "Dirección de tesis",
