@@ -667,7 +667,7 @@
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     let w, h, dpr, parts = [], raf, t = 0, mouse = {x:-9999, y:-9999};
 
-    const accent = () => (getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#7b1e34');
+    const accent = () => (getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#6a2c8a');
     const motion = () => { const m = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--motion')); return isNaN(m) ? 1 : m; };
     function hex2rgb(hex){ hex = hex.replace('#',''); if(hex.length===3) hex = hex.split('').map(c=>c+c).join(''); const n = parseInt(hex,16); return [(n>>16)&255,(n>>8)&255,n&255]; }
     let COL = accent(), RGB = hex2rgb(COL);
