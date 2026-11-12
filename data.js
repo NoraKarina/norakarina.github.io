@@ -457,7 +457,8 @@ window.DATA = {
       "LaTeX",
       "Estudio de caso",
       "Entrevista semiestructurada",
-      "Análisis documental"
+      "Análisis documental",
+      "HTML"
     ],
     "distinctions": [
       {
@@ -465,6 +466,36 @@ window.DATA = {
         "es": "Beca de doctorado (Programa Nacional de Posgrados de Calidad)",
         "en": "Doctoral scholarship (National Quality Graduate Programs)",
         "years": "2019–2023",
+        "place": {
+          "es": "México",
+          "en": "Mexico"
+        }
+      },
+      {
+        "org": "CONACyT",
+        "es": "Beca de maestría (Programa Nacional de Posgrados de Calidad)",
+        "en": "Master's scholarship (National Quality Graduate Programs)",
+        "years": "2012–2014",
+        "place": {
+          "es": "México",
+          "en": "Mexico"
+        }
+      },
+      {
+        "org": "COBAEJ · Construye-T",
+        "es": "Primer lugar en proyectos Construye-T, zona metropolitana de Jalisco",
+        "en": "First place, Construye-T projects, Guadalajara metropolitan area",
+        "years": "",
+        "place": {
+          "es": "México",
+          "en": "Mexico"
+        }
+      },
+      {
+        "org": "SEP",
+        "es": "Estímulos al mérito docente por alto desempeño",
+        "en": "Teaching merit awards for outstanding performance",
+        "years": "",
         "place": {
           "es": "México",
           "en": "Mexico"
@@ -536,8 +567,8 @@ window.DATA = {
       },
       "years": "2012 – 2014",
       "detail": {
-        "es": "Tesis: El proyecto de vida de los estudiantes en el marco de la Reforma Integral de la Educación Media Superior (RIEMS). Dirección: Dr. José Luis Dueñas García.",
-        "en": "Thesis: Students' life projects under Mexico's Comprehensive Upper-Secondary Education Reform (RIEMS). Advisor: Dr. José Luis Dueñas García."
+        "es": "Tesis: El proyecto de vida de los estudiantes en el marco de la Reforma Integral de la Educación Media Superior (RIEMS). Dirección: Dr. José Luis Dueñas García. Becaria CONACyT.",
+        "en": "Thesis: Students' life projects under Mexico's Comprehensive Upper-Secondary Education Reform (RIEMS). Advisor: Dr. José Luis Dueñas García. CONACyT scholar."
       }
     },
     {
@@ -552,8 +583,8 @@ window.DATA = {
       },
       "years": "1992 – 1996",
       "detail": {
-        "es": "Formación en administración y gestión de organizaciones turísticas.",
-        "en": "Training in the administration and management of tourism organizations."
+        "es": "Formación en administración y gestión de organizaciones turísticas. Titulación por examen CENEVAL.",
+        "en": "Training in the administration and management of tourism organizations. Degree earned through the national CENEVAL exam."
       }
     }
   ],
@@ -726,8 +757,8 @@ window.DATA = {
       "yearsEn": "2009 – 2016",
       "current": false,
       "detail": {
-        "es": "Coordinó el programa Construye-T (2010–2016) y participó en el diseño curricular por competencias de Lengua Adicional al Español.",
-        "en": "Coordinated the Construye-T program (2010–2016) and co-designed the competency-based curriculum for Additional Language to Spanish."
+        "es": "Coordinó el programa Construye-T (2010–2016) y participó en el diseño curricular por competencias de Lengua Adicional al Español. Primer lugar en proyectos Construye-T en la zona metropolitana de Jalisco; dirección de proyectos estudiantiles y coordinación del Concurso Estatal de Oratoria COBAEJ (2011).",
+        "en": "Coordinated the Construye-T program (2010–2016) and co-designed the competency-based curriculum for Additional Language to Spanish. First place in Construye-T projects in the Guadalajara metropolitan area; supervised student research projects and coordinated the COBAEJ State Public Speaking Contest (2011)."
       },
       "courses": [
         {
@@ -766,8 +797,8 @@ window.DATA = {
       "yearsEn": "2009 – 2016",
       "current": false,
       "detail": {
-        "es": "Elaboró la propuesta metodológica de la materia de comunicación para el currículo de bachillerato semiescolarizado.",
-        "en": "Developed the methodological proposal for the communication course in the blended high school curriculum."
+        "es": "Elaboró la propuesta metodológica de la materia de comunicación para el currículo de bachillerato semiescolarizado. En 2014 también impartió Lengua Adicional al Español en el bachillerato semiescolarizado del Instituto Juarista.",
+        "en": "Developed the methodological proposal for the communication course in the blended high school curriculum. In 2014 she also taught Spanish as an Additional Language at Instituto Juarista."
       },
       "courses": [
         {
@@ -1024,18 +1055,120 @@ window.DATA = {
     },
     {
       "name": {
-        "es": "Ponencia «Investigaciones de estudios de posgrado»",
-        "en": "Talk “Graduate research studies”"
+        "es": "3er Foro de Intercambio de Experiencias en Investigación — IDEFT, SEP y COBAEJ",
+        "en": "3rd Forum for Exchanging Research Experiences — IDEFT, SEP and COBAEJ"
       },
       "place": {
-        "es": "Guadalajara, Jalisco",
-        "en": "Guadalajara, Jalisco"
+        "es": "Jalisco",
+        "en": "Jalisco, Mexico"
       },
       "when": "2014",
       "talks": [
         {
-          "es": "Ponente",
-          "en": "Speaker"
+          "es": "Ponencia: «Proyecto de vida de los estudiantes en el marco de la RIEMS»",
+          "en": "Talk: “Students' life projects under the RIEMS reform”"
+        }
+      ]
+    },
+    {
+      "name": {
+        "es": "3ª Jornada de Investigación Temprana — IDEFT, SEP y COBAEJ",
+        "en": "3rd Early Research Conference — IDEFT, SEP and COBAEJ"
+      },
+      "place": {
+        "es": "Jalisco",
+        "en": "Jalisco, Mexico"
+      },
+      "when": "2014",
+      "talks": [
+        {
+          "es": "Ponencia: «Investigaciones de estudios de posgrado»",
+          "en": "Talk: “Graduate research studies”"
+        }
+      ]
+    },
+    {
+      "name": {
+        "es": "Feria de Tlajomulco — COBAEJ",
+        "en": "Tlajomulco Fair — COBAEJ"
+      },
+      "place": {
+        "es": "Tlajomulco, Jalisco",
+        "en": "Tlajomulco, Mexico"
+      },
+      "when": "2014",
+      "talks": [
+        {
+          "es": "Ponencia: «El buen trato a las personas con discapacidad»",
+          "en": "Talk: “Respectful treatment of people with disabilities”"
+        }
+      ]
+    },
+    {
+      "name": {
+        "es": "Seminario Internacional «Las universidades que América Latina podría tener» — RIAIPE",
+        "en": "International Seminar “The universities Latin America could have” — RIAIPE"
+      },
+      "place": {
+        "es": "Guadalajara, Jalisco",
+        "en": "Guadalajara, Mexico"
+      },
+      "when": "2013",
+      "talks": [
+        {
+          "es": "Asistente y traductora",
+          "en": "Attendee and interpreter"
+        }
+      ]
+    },
+    {
+      "name": {
+        "es": "XVII Encuentro Internacional de Investigación Educativa «¿Qué reforman las reformas educativas?» — Universidad de Guadalajara",
+        "en": "17th International Meeting on Educational Research — Universidad de Guadalajara"
+      },
+      "place": {
+        "es": "Guadalajara, Jalisco",
+        "en": "Guadalajara, Mexico"
+      },
+      "when": "2013",
+      "talks": [
+        {
+          "es": "Asistente",
+          "en": "Attendee"
+        }
+      ]
+    },
+    {
+      "name": {
+        "es": "Primer Congreso Académico en la RIEMS — Universidad Autónoma de Guadalajara y COBAEJ",
+        "en": "First Academic Congress on the RIEMS — Universidad Autónoma de Guadalajara and COBAEJ"
+      },
+      "place": {
+        "es": "Guadalajara, Jalisco",
+        "en": "Guadalajara, Mexico"
+      },
+      "when": "2011",
+      "talks": [
+        {
+          "es": "Ponencia: «Desarrollo de competencias en el Bachillerato General en el marco de la RIEMS»",
+          "en": "Talk: “Developing competencies in general upper-secondary education under the RIEMS”"
+        }
+      ]
+    },
+    {
+      "name": {
+        "es": "3ª Jornada de Investigación Temprana: La Ciencia y la Tecnología — COBAEJ",
+        "en": "3rd Early Research Conference: Science and Technology — COBAEJ"
+      },
+      "place": {
+        "es": "Jalisco",
+        "en": "Jalisco, Mexico"
+      },
+      "when": "2010",
+      "talks": [
+        {
+          "es": "Dirección del proyecto estudiantil «Utilización de flash cards para aprender inglés en la EMS»",
+          "en": "Supervised student project “Using flash cards to learn English in upper-secondary school”"
         }
       ]
     }
@@ -1095,8 +1228,8 @@ window.DATA = {
         "en": "Course"
       },
       "name": {
-        "es": "Capacitación para instructores (CPI)",
-        "en": "Instructor training (CPI)"
+        "es": "Capacitación para instructores (CPI, 45 h)",
+        "en": "Instructor training (CPI, 45 h)"
       },
       "org": "USAID · Cruz Roja",
       "years": "2017"
@@ -1107,10 +1240,10 @@ window.DATA = {
         "en": "Course"
       },
       "name": {
-        "es": "Implementación de la plataforma Moodle",
-        "en": "Moodle platform implementation"
+        "es": "Implementación de la plataforma Moodle (120 h, en línea)",
+        "en": "Moodle platform implementation (120 h, online)"
       },
-      "org": "Formación profesional",
+      "org": "Universidad Santander",
       "years": "2017"
     },
     {
@@ -1124,30 +1257,6 @@ window.DATA = {
       },
       "org": "SEP · CECATI 190",
       "years": "2015"
-    },
-    {
-      "kind": {
-        "es": "Curso",
-        "en": "Course"
-      },
-      "name": {
-        "es": "Seminario internacional sobre educación superior latinoamericana",
-        "en": "International seminar on Latin American higher education"
-      },
-      "org": "RIAIPE",
-      "years": "2013"
-    },
-    {
-      "kind": {
-        "es": "Diplomado",
-        "en": "Diploma"
-      },
-      "name": {
-        "es": "PROFORDEMS, formación docente para educación media superior",
-        "en": "PROFORDEMS, upper-secondary teacher training"
-      },
-      "org": "ITESO",
-      "years": "2011"
     },
     {
       "kind": {
@@ -1179,11 +1288,71 @@ window.DATA = {
         "en": "Course"
       },
       "name": {
+        "es": "Análisis de datos cualitativos con Atlas.ti (20 h)",
+        "en": "Qualitative data analysis with Atlas.ti (20 h)"
+      },
+      "org": "Universidad de Guadalajara · GEA Consultores",
+      "years": "2013"
+    },
+    {
+      "kind": {
+        "es": "Diplomado",
+        "en": "Diploma"
+      },
+      "name": {
+        "es": "Investigación y proyectos para la EMS y las seis dimensiones juveniles (Construye-T, 200 h)",
+        "en": "Research and projects for upper-secondary education (Construye-T, 200 h)"
+      },
+      "org": "Secretaría de Educación Pública",
+      "years": ""
+    },
+    {
+      "kind": {
+        "es": "Diplomado",
+        "en": "Diploma"
+      },
+      "name": {
+        "es": "PROFORDEMS, formación docente para educación media superior",
+        "en": "PROFORDEMS, upper-secondary teacher training"
+      },
+      "org": "ITESO",
+      "years": "2011"
+    },
+    {
+      "kind": {
+        "es": "Curso",
+        "en": "Course"
+      },
+      "name": {
         "es": "Teacher Knowledge",
         "en": "Teacher Knowledge"
       },
       "org": "Training College Marista",
       "years": "2011"
+    },
+    {
+      "kind": {
+        "es": "Curso",
+        "en": "Course"
+      },
+      "name": {
+        "es": "Teacher Knowledge Training in English (120 h)",
+        "en": "Teacher Knowledge Training in English (120 h)"
+      },
+      "org": "College Marista",
+      "years": "2011"
+    },
+    {
+      "kind": {
+        "es": "Curso-taller",
+        "en": "Workshop"
+      },
+      "name": {
+        "es": "Evaluación del aprendizaje por competencias (15 h)",
+        "en": "Competency-based learning assessment (15 h)"
+      },
+      "org": "UNIVA",
+      "years": "2010"
     },
     {
       "kind": {
@@ -1199,12 +1368,36 @@ window.DATA = {
     },
     {
       "kind": {
+        "es": "Idioma",
+        "en": "Language"
+      },
+      "name": {
+        "es": "Curso de inglés (6 meses)",
+        "en": "English course (6 months)"
+      },
+      "org": "Wisconsin, EUA",
+      "years": "1999"
+    },
+    {
+      "kind": {
         "es": "Curso",
         "en": "Course"
       },
       "name": {
         "es": "Curso de inglés, nivel 5 (5 meses)",
         "en": "English course, level 5 (5 months)"
+      },
+      "org": "Niagara Falls, Canadá",
+      "years": "1997"
+    },
+    {
+      "kind": {
+        "es": "Idioma",
+        "en": "Language"
+      },
+      "name": {
+        "es": "Curso de inglés (5 meses)",
+        "en": "English course (5 months)"
       },
       "org": "Niagara Falls, Canadá",
       "years": "1997"
