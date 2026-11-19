@@ -17,8 +17,8 @@ window.DATA = {
       "en": "PhD in Higher Education Management · Internationalization and education policy"
     },
     "institution": {
-      "es": "Universidad de Guadalajara (Doctorado, 2025) · Université de Montréal (LIRES, 2020–2025)",
-      "en": "Universidad de Guadalajara (PhD, 2025) · Université de Montréal (LIRES, 2020–2025)"
+      "es": "Universidad de Guadalajara (Doctorado, 2025) · Université de Montréal (estancia doctoral, 2021)",
+      "en": "Universidad de Guadalajara (PhD, 2025) · Université de Montréal (estancia doctoral, 2021)"
     },
     "location": {
       "es": "Guadalajara, Jalisco · México",
@@ -503,9 +503,9 @@ window.DATA = {
       },
       {
         "org": "Université de Montréal",
-        "es": "Investigadora internacional invitada · LIRES",
-        "en": "Visiting international researcher · LIRES",
-        "years": "2020",
+        "es": "Investigadora doctoral visitante · LIRES",
+        "en": "Visiting doctoral researcher · LIRES",
+        "years": "2021",
         "place": {
           "es": "Canadá",
           "en": "Canada"
@@ -529,12 +529,12 @@ window.DATA = {
         "en": "Spanish — Native"
       },
       {
-        "es": "Inglés — Avanzado",
-        "en": "English — Advanced"
+        "es": "Inglés — Avanzado (TOEFL; Duolingo English Test 105/160)",
+        "en": "English — Advanced (TOEFL; Duolingo English Test 105/160)"
       },
       {
-        "es": "Francés — B2",
-        "en": "French — B2"
+        "es": "Francés — B2 (Francisation Québec, niveles 7–8, 2026)",
+        "en": "French — B2 (Francisation Québec, levels 7–8, 2026)"
       }
     ]
   },
@@ -655,20 +655,20 @@ window.DATA = {
     },
     {
       "role": {
-        "es": "Investigadora internacional invitada",
-        "en": "Visiting international researcher"
+        "es": "Investigadora doctoral visitante",
+        "en": "Visiting doctoral researcher"
       },
       "org": "Université de Montréal · LIRES",
       "place": {
         "es": "Montréal, Canadá",
         "en": "Montréal, Canada"
       },
-      "years": "2020 – 2021",
-      "yearsEn": "2020 – 2021",
+      "years": "2021",
+      "yearsEn": "2021",
       "current": false,
       "detail": {
-        "es": "Estancia de investigación doctoral, agosto de 2020 a enero de 2021.",
-        "en": "Doctoral research stay, August 2020 to January 2021."
+        "es": "Estancia de investigación doctoral (13 sep. – 25 dic. 2021) bajo la supervisión del Prof. Olivier Bégin-Caouette, Département d'administration et fondements de l'éducation. Certificado de ética, trabajo de campo en Canadá, curso ETA6400 y presentación en el seminario del LIRES.",
+        "en": "Doctoral research stay (Sep 13 – Dec 25, 2021) supervised by Prof. Olivier Bégin-Caouette, Département d'administration et fondements de l'éducation. Ethics certificate, fieldwork in Canada, ETA6400 course and presentation at the LIRES seminar."
       }
     },
     {
@@ -1176,6 +1176,30 @@ window.DATA = {
   "training": [
     {
       "kind": {
+        "es": "Certificación",
+        "en": "Certification"
+      },
+      "name": {
+        "es": "Francisation Québec FIA330-4 (francés, niveles 7–8)",
+        "en": "Francisation Québec FIA330-4 (French, levels 7–8)"
+      },
+      "org": "Cégep Saint-Jean-sur-Richelieu",
+      "years": "2026"
+    },
+    {
+      "kind": {
+        "es": "Curso",
+        "en": "Course"
+      },
+      "name": {
+        "es": "Primeros auxilios psicológicos",
+        "en": "Psychological first aid"
+      },
+      "org": "Formación continua · Canadá",
+      "years": "2025"
+    },
+    {
+      "kind": {
         "es": "Curso",
         "en": "Course"
       },
@@ -1185,6 +1209,30 @@ window.DATA = {
       },
       "org": "Université de Montréal",
       "years": "2024"
+    },
+    {
+      "kind": {
+        "es": "Taller",
+        "en": "Workshop"
+      },
+      "name": {
+        "es": "Taller «Experiencia interactiva en lenguas extranjeras»",
+        "en": "Workshop: Interactive Experience in Foreign Languages"
+      },
+      "org": "Universidad de Guadalajara",
+      "years": "2022"
+    },
+    {
+      "kind": {
+        "es": "Certificación",
+        "en": "Certification"
+      },
+      "name": {
+        "es": "Duolingo English Test (105/160)",
+        "en": "Duolingo English Test (105/160)"
+      },
+      "org": "Duolingo",
+      "years": "2021"
     },
     {
       "kind": {
@@ -1324,10 +1372,10 @@ window.DATA = {
         "en": "Course"
       },
       "name": {
-        "es": "Teacher Knowledge",
-        "en": "Teacher Knowledge"
+        "es": "Teacher Knowledge Training in English (120 h)",
+        "en": "Teacher Knowledge Training in English (120 h)"
       },
-      "org": "Training College Marista",
+      "org": "College Marista",
       "years": "2011"
     },
     {
@@ -1336,10 +1384,10 @@ window.DATA = {
         "en": "Course"
       },
       "name": {
-        "es": "Teacher Knowledge Training in English (120 h)",
-        "en": "Teacher Knowledge Training in English (120 h)"
+        "es": "English Teaching Certificate Program (60 h)",
+        "en": "English Teaching Certificate Program (60 h)"
       },
-      "org": "College Marista",
+      "org": "Universidad Marista de Guadalajara · COBAEJ",
       "years": "2011"
     },
     {
@@ -1364,18 +1412,6 @@ window.DATA = {
         "en": "English course (6 months)"
       },
       "org": "University of Wisconsin–Eau Claire",
-      "years": "1999"
-    },
-    {
-      "kind": {
-        "es": "Idioma",
-        "en": "Language"
-      },
-      "name": {
-        "es": "Curso de inglés (6 meses)",
-        "en": "English course (6 months)"
-      },
-      "org": "Wisconsin, EUA",
       "years": "1999"
     },
     {
